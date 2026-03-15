@@ -5,7 +5,7 @@ const BASE_URL = 'https://gastoscorporativosapi-2025-bwesgqemdychftej.eastus2-01
 
 test.describe('Suite de Pruebas API - Gastos Corporativos', () => {
 
-  // Configuramos el Header con la Key que encontraste
+  // Se configura el Header con la API-KEY
   const authHeaders = {
     'API-KEY': process.env.API_KEY_GASTOS || '',
     'Content-Type': 'application/json'
